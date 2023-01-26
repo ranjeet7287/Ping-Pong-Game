@@ -96,7 +96,7 @@ window.addEventListener('keypress', function () {
     }
 
 
-    if (event.code === "Enter") {
+    if (event.code=== "Enter") {
 
         if (!gameOn) {
             gameOn = true;
