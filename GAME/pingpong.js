@@ -96,7 +96,7 @@ window.addEventListener('keypress', function () {
     }
 
 
-    if (event.code=== "Enter") {
+    if (event.code === "Enter") {
 
         if (!gameOn) {
             gameOn = true;
@@ -109,10 +109,6 @@ window.addEventListener('keypress', function () {
             let rod2Height = rod2.offsetHeight;
             let rod1Width = rod1.offsetWidth;
             let rod2Width = rod2.offsetWidth;
-
-            let rod1X=rodRect.x;
-            let rod2X=rodRect.x;
-            
 
 
             movement = setInterval(function () {
