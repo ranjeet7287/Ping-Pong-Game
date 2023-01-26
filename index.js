@@ -110,6 +110,10 @@ window.addEventListener('keypress', function () {
             let rod1Width = rod1.offsetWidth;
             let rod2Width = rod2.offsetWidth;
 
+            let rod1X=rodRect.x;
+            let rod2X=rodRect.x;
+            
+
 
             movement = setInterval(function () {
                 // Move ball 
